@@ -83,7 +83,12 @@ html, body {
     left: 43rem;
 }
 
-
+.btn-explorar {
+    padding-inline: 40px;
+    background-color: #385BD2;
+    font-family: 'Glacial Bold';
+    color: white;
+}
 .container .inicial {
     align-items: center;
     justify-content: center;
