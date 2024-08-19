@@ -33,26 +33,41 @@ html, body {
 .navbar {
     height: 78px;
     z-index: 10;
+    background-color: #FFFEF3;
 }
 
 
 
 .search-bar {
-    width: 300px;
+    width: 330px;
     height: 32px;
     border-radius: 25px;
     border: 2px solid black;
+    
 }
 
+.layout-label {
+        border: none;
+        height: 25px;
+        width: 290px;
+        padding-inline: 10px;
+        outline: none; /*tira contorno quando clica*/
+        background:none;
+    }
 .navbar .icons {
     gap: 20px; /* Espaçamento entre os ícones */
 }
 
 
 .btn-with-image {
-    background-color: white;
+    background-color: #FFFEF3;
     border: none;
     border-radius: 10px;
+}
+
+.btn-nav{
+    height:22px;
+    width:auto;
 }
 
 .blur {

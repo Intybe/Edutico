@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rebeka\\Desktop\\Edutico_ecommerce\\edutico\\edutico.csproj": {}
+    "C:\\Users\\Rebeka\\Desktop\\Edutico\\edutico\\edutico.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rebeka\\Desktop\\Edutico_ecommerce\\edutico\\edutico.csproj": {
+    "C:\\Users\\Rebeka\\Desktop\\Edutico\\edutico\\edutico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rebeka\\Desktop\\Edutico_ecommerce\\edutico\\edutico.csproj",
+        "projectUniqueName": "C:\\Users\\Rebeka\\Desktop\\Edutico\\edutico\\edutico.csproj",
         "projectName": "edutico",
-        "projectPath": "C:\\Users\\Rebeka\\Desktop\\Edutico_ecommerce\\edutico\\edutico.csproj",
+        "projectPath": "C:\\Users\\Rebeka\\Desktop\\Edutico\\edutico\\edutico.csproj",
         "packagesPath": "C:\\Users\\Rebeka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rebeka\\Desktop\\Edutico_ecommerce\\edutico\\obj\\",
+        "outputPath": "C:\\Users\\Rebeka\\Desktop\\Edutico\\edutico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rebeka\\AppData\\Roaming\\NuGet\\NuGet.Config",
