@@ -27,17 +27,20 @@
                 <div class="d-flex align-items-center icons">
                     <!-- Coração -->
                     <button class="btn-with-image">
-                        <img src="imgs/coracao.png" alt="curtidas" class="btn-nav">
+                        <img src="~/imgs/coracao.png" alt="curtidas" class="btn-nav">
                     </button>
 
                     <!-- Carrinho -->
                     <button class="btn-with-image">
-                        <img src="imgs/carrinho.png" alt="carrinho" style="height:26px; width:auto;">
+                        <img src="~/imgs/carrinho.png" alt="carrinho" style="height:26px; width:auto;">
                     </button>
 
                     <!-- Perfil -->
                     <button class="btn-with-image">
-                        <img src="imgs/perfil.png" alt="usuario" class="btn-nav">
+                        <!-- Chama o método da Controller "Login" que é para mopstrar a tela login-->
+                        <a asp-controller="Home" asp-action="Login">
+                            <img src="~/imgs/perfil.png" alt="usuario" class="btn-nav">
+                        </a>
                     </button>
                 </div>
             </div>
@@ -54,7 +57,7 @@
             @*p = padding y = eixo y (a margem vai ficar vertical) + 3 unidades -> py-3*@
             <div class="row py-4 texto_footer">
                 <div class="col-6 col-md-2">
-                    <img src="imgs/logo.png" alt="logo" class="img-fluid" style="max-width:150px">
+                    <img src="~/imgs/logo.png" alt="logo" class="img-fluid" style="max-width:150px">
                 </div>
 
                 <div class="col-6 col-md-2 text-left text-md-left text-white ">
@@ -65,13 +68,13 @@
                 </div>
                 <div class="col-6 col-md-2 text-left text-white">
                     <p class="titulo_footer">ATENDIMENTO</p>
-                    <p><img src="imgs/whatsapp.png" alt="whatsapp" class="icone">  (11) 00000-0000</p>
-                    <p><img src="imgs/chamada-telefonica.png" alt="telefone" class="icone">  (11) 3900-000</p>
+                    <p><img src="~/imgs/whatsapp.png" alt="whatsapp" class="icone">  (11) 00000-0000</p>
+                    <p><img src="~/imgs/chamada-telefonica.png" alt="telefone" class="icone">  (11) 3900-000</p>
                 </div>
                 <div class="col-6 col-md-2 text-left text-md-left text-white">
                     <p class="titulo_footer">SIGA-NOS!</p>
-                    <p><img src="imgs/instagram.png" alt="instagram" class="icone">  eduticoo</p>
-                    <p><img src="imgs/facebook.png" alt="facebook" class="icone">  edutico</p>
+                    <p><img src="~/imgs/instagram.png" alt="instagram" class="icone">  eduticoo</p>
+                    <p><img src="~/imgs/facebook.png" alt="facebook" class="icone">  edutico</p>
                 </div>
                 <div class="col-4 col-md-3 text-center text-md-left text-white">
                     <p class="titulo_footer">LOJA FÍSICA</p>
@@ -84,8 +87,8 @@
                             </p>
                         </div>
                         <div class="col col-lg-8">
-                            <img src="imgs/cartao.png" alt="cartão" id="img_pag">
-                            <img src="imgs/pix.png" alt="PIX" id="img_pag">
+                            <img src="~/imgs/cartao.png" alt="cartão" id="img_pag">
+                            <img src="~/imgs/pix.png" alt="PIX" id="img_pag">
                         </div>
                     </div>
 
