@@ -157,15 +157,27 @@ html, body {
     color: black;
     padding-inline: 20px;
 }
-.TxtBemVindo {
+
+/*TELA LOGIN*/
+.container .TxtBemVindo {
     font-family: 'Glacial Bold';
     margin-top: 70px;
+    width: 500px;
 }
 
-.imgMaeFilho{
-    margin-top:20px;
-    margin-right: 50px;
+
+.container .facalogin {
+    font-family: 'Glacial Bold';
+    margin-top: 49px;
+    width: 400px;
 }
+
+.imgMaeFilho {
+    margin-top: -220px;
+    margin-left: 499px;
+}
+
+
 /*Footer*/
 .meurodape {
     background-color: #1F3C9D;
