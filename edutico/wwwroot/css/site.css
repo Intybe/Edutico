@@ -157,6 +157,15 @@ html, body {
     color: black;
     padding-inline: 20px;
 }
+.TxtBemVindo {
+    font-family: 'Glacial Bold';
+    margin-top: 70px;
+}
+
+.imgMaeFilho{
+    margin-top:20px;
+    margin-right: 50px;
+}
 /*Footer*/
 .meurodape {
     background-color: #1F3C9D;
