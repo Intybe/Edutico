@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\flavi\\.nuget\\packages\\": {}
+    "C:\\Users\\evely\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flavi\\source\\repos\\Edutico\\Edutico\\edutico\\edutico.csproj",
+      "projectUniqueName": "C:\\Users\\evely\\OneDrive\\Área de Trabalho\\Edutico-TCC\\Edutico\\edutico\\edutico.csproj",
       "projectName": "edutico",
-      "projectPath": "C:\\Users\\flavi\\source\\repos\\Edutico\\Edutico\\edutico\\edutico.csproj",
-      "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flavi\\source\\repos\\Edutico\\Edutico\\edutico\\obj\\",
+      "projectPath": "C:\\Users\\evely\\OneDrive\\Área de Trabalho\\Edutico-TCC\\Edutico\\edutico\\edutico.csproj",
+      "packagesPath": "C:\\Users\\evely\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\evely\\OneDrive\\Área de Trabalho\\Edutico-TCC\\Edutico\\edutico\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\evely\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

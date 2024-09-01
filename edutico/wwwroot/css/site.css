@@ -320,6 +320,70 @@ input[type="password"] {
         border: 1px solid #007bff;
     }
 
+/*TELA ESQUECI A SENHA*/
+.containerSenha {
+    align-items: center;
+    height: 583px; /*delimita a altura (para a img ficar centralizada*/
+    margin-left: 10px;
+}
+
+.container .TxtNovaSenha {
+    font-family: 'Glacial Bold';
+    text-align: center;
+    margin-top: 70px;
+    width: 1050px;
+}
+
+/*FORM SENHA*/
+.areaSenha {
+
+    width: 400px;
+    margin-top: 35px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        font-family: 'Glacial';
+        display: block;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+        border: 1px solid #E37B1B; /* Cor da borda ao focar */
+        outline: none; /* Remove o contorno padrão */
+    }
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    color: #0066cc;
+}
+
+
+.imgBolas {
+    position: absolute; /* Posiciona a imagem relativamente ao container pai */
+    bottom: 0; /* Ajusta a imagem na parte inferior */
+    right: 0; /* Ajusta a imagem na parte direita */
+    height: 100%; /* Ajusta a altura para ocupar todo o container */
+    width: auto; /* Mantém a proporção da imagem */
+    z-index: -1; /* Coloca a imagem atrás do conteúdo principal */
+}
+
+
 /*FUNCIONÁRIO*/
 
 
